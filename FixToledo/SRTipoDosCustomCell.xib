@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TipoDosCustomCell" rowHeight="280" id="ty6-KM-4vy" customClass="SRTipoDosCustomCell" customModule="FixToledo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ty6-KM-4vy" id="T2I-TI-Izc">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="279"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bPT-wO-jZH">
+                        <rect key="frame" x="0.0" y="104" width="320" height="175"/>
+                    </imageView>
+                    <view alpha="0.40000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21c-Rk-wjr">
+                        <rect key="frame" x="0.0" y="254" width="320" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="aEG-xj-Mtj"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fecha de Publicacion" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUl-Fx-iph">
+                        <rect key="frame" x="171" y="254" width="143" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="estado incidencia " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSs-3u-STO">
+                        <rect key="frame" x="171" y="6" width="143" height="16"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de Incidencia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR8-ZJ-lxD">
+                        <rect key="frame" x="4" y="5" width="134" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="134" id="RoY-2A-80T"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo de la incidencia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tv5-hZ-lDU">
+                        <rect key="frame" x="4" y="257" width="187" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="187" id="Gwf-YD-6aO"/>
+                            <constraint firstAttribute="height" constant="18" id="jtR-w9-cjR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPi-wc-OE5">
+                        <rect key="frame" x="4" y="24" width="255" height="76"/>
+                        <string key="text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T</string>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ESD-6g-hII">
+                        <rect key="frame" x="274" y="36" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="IQ6-Nu-vXJ"/>
+                            <constraint firstAttribute="height" constant="40" id="Zdw-cx-awS"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="mWK-wM-1UZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XSs-3u-STO" firstAttribute="leading" secondItem="aUl-Fx-iph" secondAttribute="leading" id="1Pf-9K-d3G"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="leading" secondItem="21c-Rk-wjr" secondAttribute="leading" id="4a4-nA-7X9"/>
+                    <constraint firstItem="hPi-wc-OE5" firstAttribute="leading" secondItem="tv5-hZ-lDU" secondAttribute="leading" id="5kJ-Ep-5Lj"/>
+                    <constraint firstItem="21c-Rk-wjr" firstAttribute="top" secondItem="aUl-Fx-iph" secondAttribute="top" id="6pd-lj-d4m"/>
+                    <constraint firstItem="hPi-wc-OE5" firstAttribute="top" secondItem="PR8-ZJ-lxD" secondAttribute="bottom" constant="1" id="ABV-PQ-guD"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="trailing" secondItem="21c-Rk-wjr" secondAttribute="trailing" id="Bgf-bn-tj3"/>
+                    <constraint firstAttribute="trailing" secondItem="bPT-wO-jZH" secondAttribute="trailing" id="IX5-H8-qFy"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="top" secondItem="hPi-wc-OE5" secondAttribute="bottom" constant="4" id="IhZ-hj-prf"/>
+                    <constraint firstItem="tv5-hZ-lDU" firstAttribute="baseline" secondItem="aUl-Fx-iph" secondAttribute="baseline" id="JP0-mv-u5M"/>
+                    <constraint firstItem="ESD-6g-hII" firstAttribute="top" secondItem="XSs-3u-STO" secondAttribute="bottom" constant="14" id="Jmi-S6-wKi"/>
+                    <constraint firstAttribute="bottom" secondItem="21c-Rk-wjr" secondAttribute="bottom" id="Lmg-Pk-rIC"/>
+                    <constraint firstItem="XSs-3u-STO" firstAttribute="baseline" secondItem="PR8-ZJ-lxD" secondAttribute="firstBaseline" id="NML-Wa-Eww"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XSs-3u-STO" secondAttribute="trailing" constant="-2" id="OS3-ZN-aSe"/>
+                    <constraint firstItem="XSs-3u-STO" firstAttribute="top" secondItem="T2I-TI-Izc" secondAttribute="topMargin" constant="-2" id="Oei-B6-M5y"/>
+                    <constraint firstItem="hPi-wc-OE5" firstAttribute="top" secondItem="XSs-3u-STO" secondAttribute="bottom" constant="2" id="PVm-nr-xy6"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="top" secondItem="ESD-6g-hII" secondAttribute="bottom" constant="28" id="a6l-AR-Bdq"/>
+                    <constraint firstItem="PR8-ZJ-lxD" firstAttribute="centerY" secondItem="XSs-3u-STO" secondAttribute="centerY" id="aXF-ZX-Lkk"/>
+                    <constraint firstItem="21c-Rk-wjr" firstAttribute="centerY" secondItem="tv5-hZ-lDU" secondAttribute="centerY" id="agU-Sb-13r"/>
+                    <constraint firstItem="PR8-ZJ-lxD" firstAttribute="leading" secondItem="T2I-TI-Izc" secondAttribute="leadingMargin" constant="-4" id="bL7-IO-I4O"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="leading" secondItem="T2I-TI-Izc" secondAttribute="leading" id="dJU-TS-ASo"/>
+                    <constraint firstItem="XSs-3u-STO" firstAttribute="trailing" secondItem="ESD-6g-hII" secondAttribute="trailing" id="f5O-al-jc4"/>
+                    <constraint firstItem="ESD-6g-hII" firstAttribute="leading" secondItem="hPi-wc-OE5" secondAttribute="trailing" constant="15" id="gvm-ch-po9"/>
+                    <constraint firstItem="XSs-3u-STO" firstAttribute="leading" secondItem="PR8-ZJ-lxD" secondAttribute="trailing" constant="33" id="h9T-17-hle"/>
+                    <constraint firstItem="bPT-wO-jZH" firstAttribute="bottom" secondItem="21c-Rk-wjr" secondAttribute="bottom" id="kXG-2b-hQX"/>
+                    <constraint firstItem="ESD-6g-hII" firstAttribute="trailing" secondItem="aUl-Fx-iph" secondAttribute="trailing" id="ku6-LD-NTW"/>
+                    <constraint firstItem="PR8-ZJ-lxD" firstAttribute="leading" secondItem="hPi-wc-OE5" secondAttribute="leading" id="vdI-IQ-voo"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="tv5-hZ-lDU" secondAttribute="bottom" constant="-4" id="vob-dy-uAc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descripcion" destination="hPi-wc-OE5" id="cwN-vz-4JK"/>
+                <outlet property="estado" destination="XSs-3u-STO" id="AUd-ci-xD0"/>
+                <outlet property="estadoImagen" destination="ESD-6g-hII" id="dHV-mJ-1j1"/>
+                <outlet property="fecha" destination="aUl-Fx-iph" id="Ryz-jJ-nkx"/>
+                <outlet property="imagen" destination="bPT-wO-jZH" id="WYN-hQ-Qzc"/>
+                <outlet property="tipo" destination="PR8-ZJ-lxD" id="fgi-Qy-kBw"/>
+                <outlet property="titulo" destination="tv5-hZ-lDU" id="vZh-kv-LSy"/>
+            </connections>
+            <point key="canvasLocation" x="5" y="83"/>
+        </tableViewCell>
+    </objects>
+</document>
